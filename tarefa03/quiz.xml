@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+
+<quiz versao="1.0">
+    <disciplina>Informática</disciplina>
+    <professor>
+        <nome>Marcos Silva</nome>
+        <matrícula>12345</matrícula>
+    </professor>
+    <turma>3º Ano A</turma>
+    <data>2026-04-01</data>
+
+    <questões>
+        <questão>
+            <enunciado>O que significa XML?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Extensible Machine Language</alternativa>
+                <alternativa correta="sim">eXtensible Markup Language</alternativa>
+                <alternativa correta="nao">Extra Modern Language</alternativa>
+                <alternativa correta="nao">Example Markup Language</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a função de uma DTD?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Definir a estrutura de um XML</alternativa>
+                <alternativa correta="nao">Executar código XML</alternativa>
+                <alternativa correta="nao">Estilizar XML</alternativa>
+                <alternativa correta="nao">Converter XML em JSON</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual elemento é obrigatório no XML?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Elemento raiz</alternativa>
+                <alternativa correta="nao">Comentário</alternativa>
+                <alternativa correta="nao">Atributo ID</alternativa>
+                <alternativa correta="nao">CDATA</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>O que é um atributo em XML?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Um tipo de comentário</alternativa>
+                <alternativa correta="sim">Uma informação adicional dentro de uma tag</alternativa>
+                <alternativa correta="nao">Um elemento obrigatório</alternativa>
+                <alternativa correta="nao">Um tipo de erro</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual destas opções é uma tag válida?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">&lt;123tag&gt;</alternativa>
+                <alternativa correta="nao">&lt;tag!&gt;</alternativa>
+                <alternativa correta="sim">&lt;minhaTag&gt;</alternativa>
+                <alternativa correta="nao">&lt;/ tag&gt;</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
