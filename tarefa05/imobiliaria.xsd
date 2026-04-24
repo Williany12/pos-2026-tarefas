@@ -22,23 +22,10 @@
     <element name="rua" type="string"></element>
     <element name="bairro" type="string"></element>
     <element name="cidade" type="string"></element>
+    <element name="telefone" type="string"></element>
+    <element name="email" type="string"></element>
 
 
-    <element name="email">
-        <complexType>
-            <sequence>
-                <element ref="p:email" minOccurs="0" maxOccurs="unbounded"/>
-            </sequence>
-        </complexType>
-     </element>
-
-        <element name="telefone">
-        <complexType>
-            <sequence>
-                <element ref="p:telefone" minOccurs="0" maxOccurs="unbounded"/>
-            </sequence>
-        </complexType>
-     </element>
 
     <element name="imovel">
         <complexType>
@@ -52,15 +39,19 @@
         </complexType>
         </element>
 
+
     <element name="proprietario">
         <complexType>
-        <sequence>
+            <sequence>
                 <element ref="p:nome"/>
-                <element ref="p:email"/>
-                <element ref="p:telefone"/>
-        </sequence>
+                <choice minOccurs="0" maxOccurs="unbounded">
+                    <element ref="p:email"/>
+                    <element ref="p:telefone"/>
+                </choice>
+            </sequence>
         </complexType>
     </element>
+
 
     <element name="endereco">
         <complexType>
@@ -68,7 +59,7 @@
                 <element ref="p:rua"/>
                 <element ref="p:bairro"/>
                 <element ref="p:cidade"/>
-                <element ref="p:número"/>
+                <element ref="p:número" minOccurs="0"/>
         </sequence>
         </complexType>
     </element>
