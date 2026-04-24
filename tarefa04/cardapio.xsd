@@ -5,46 +5,72 @@
         elementFormDefault="qualified">
 
 
-        <element name="nome"></element>
-        <element name="descricao"></element>
-<complexType name="ingredientes">
-    <sequence>
-        <element name="matrícula" type="integer"/>
-        <element name="nome" type="string"/>
-        <element name="telefone" type="string" minOccurs="0" maxOccurs="unbounded"/>
-    </sequence>
-</complexType>
+    <element name="cardapio">
+        <complexType>
+            <sequence>
+                <element ref="p:prato" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+     </element>
 
-        <element name="preco">
+
+    <element name="nome">
+        <simpleType>
+            <restriction base="string">
+                <maxLength value="100"/>
+            </restriction>
+        </simpleType>
+    </element>
+
+
+    <element name="descricao">
+        <simpleType>
+            <restriction base="string">
+                <maxLength value="300"/>
+            </restriction>
+        </simpleType>
+    </element>
+
+
+    <element name="ingrediente" type="string"></element>
+
+
+    <element name="ingredientes">
+        <complexType>
+            <sequence>
+                <element ref="p:ingrediente" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+
+    <element name="preco">
         <simpleType>
                 <restriction base="decimal">
                 <fractionDigits value="2"/>
                 </restriction>
         </simpleType>
-        </element>
-<element name="calorias">
-<complexType>
+     </element>
+
+
+     <element name="calorias" type="integer"></element>
+
+
+     <element name="tempoPreparo" type="string"></element>
+
+
+
+        <element name="prato">
+        <complexType>
         <sequence>
-                <element name="id" type="integer"/>
+                <element ref="p:nome"/>
+                <element ref="p:descricao"/>
+                <element ref="p:ingredientes"/>
+                <element ref="p:preco"/>
+                <element ref="p:calorias"/>
+                <element ref="p:tempoPreparo"/>
         </sequence>
-</complexType>
-</element>
-        <element name="tempoPreparo"></element>
-
-
-
-<element name="prato">
-<complexType>
-    <sequence>
-        <element name="id" type="integer"/>
-        <element ref="p:nome"/>
-        <element ref="p:descricao"/>
-        <element ref="p:ingredientes"/>
-        <element ref="p:preco"/>
-        <element ref="p:calorias"/>
-        <element ref="p:tempoPreparo"/>
-
-    </sequence>
-</complexType>
-</element>
+        <attribute name="id" type="integer" use="required"/>
+        </complexType>
+        </element>
 </schema>
