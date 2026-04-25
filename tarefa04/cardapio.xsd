@@ -59,8 +59,7 @@
      <element name="tempoPreparo" type="string"></element>
 
 
-
-        <element name="prato">
+    <element name="prato">
         <complexType>
         <sequence>
                 <element ref="p:nome"/>
@@ -72,5 +71,5 @@
         </sequence>
         <attribute name="id" type="integer" use="required"/>
         </complexType>
-        </element>
+    </element>
 </schema>

@@ -1,0 +1,64 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "Informática",
+    "professor": {
+      "nome": "Marcos Silva",
+      "matricula": "12345"
+    },
+    "turma": "3º Ano A",
+    "data": "2026-04-01",
+    "questoes": [
+      {
+        "enunciado": "O que significa XML?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "correta": "nao", "texto": "Extensible Machine Language" },
+          { "correta": "sim", "texto": "eXtensible Markup Language" },
+          { "correta": "nao", "texto": "Extra Modern Language" },
+          { "correta": "nao", "texto": "Example Markup Language" }
+        ]
+      },
+      {
+        "enunciado": "Qual é a função de uma DTD?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "correta": "sim", "texto": "Definir a estrutura de um XML" },
+          { "correta": "nao", "texto": "Executar código XML" },
+          { "correta": "nao", "texto": "Estilizar XML" },
+          { "correta": "nao", "texto": "Converter XML em JSON" }
+        ]
+      },
+      {
+        "enunciado": "Qual elemento é obrigatório no XML?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "correta": "sim", "texto": "Elemento raiz" },
+          { "correta": "nao", "texto": "Comentário" },
+          { "correta": "nao", "texto": "Atributo ID" },
+          { "correta": "nao", "texto": "CDATA" }
+        ]
+      },
+      {
+        "enunciado": "O que é um atributo em XML?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "correta": "nao", "texto": "Um tipo de comentário" },
+          { "correta": "sim", "texto": "Uma informação adicional dentro de uma tag" },
+          { "correta": "nao", "texto": "Um elemento obrigatório" },
+          { "correta": "nao", "texto": "Um tipo de erro" }
+        ]
+      },
+      {
+        "enunciado": "Qual destas opções é uma tag válida?",
+        "pontuacao": 1,
+        "alternativas": [
+          { "correta": "nao", "texto": "123tag" },
+          { "correta": "nao", "texto": "tag!" },
+          { "correta": "sim", "texto": "minhaTag" },
+          { "correta": "nao", "texto": "/ tag" }
+        ]
+      }
+    ]
+  }
+}
