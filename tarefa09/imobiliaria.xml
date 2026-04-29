@@ -1,0 +1,102 @@
+<imobiliária>
+    <imovel>
+        <descricao>Apartamento moderno próximo à praia</descricao>
+        <proprietario>
+            <nome>João Silva</nome>
+            <telefone>998765432</telefone>
+            <telefone>996754788</telefone>
+            <email>joaosilva@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Dunas</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>75</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>350000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa ampla com jardim e garagem</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>991234566</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Central</rua>
+            <bairro>Lagoa Nova</bairro>
+            <cidade>Natal</cidade>
+            <número>450</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>650000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Kitnet compacta ideal para estudantes</descricao>
+        <proprietario>
+            <nome>Carlos Souza</nome>
+            <email>carlos.souza@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Universitária</rua>
+            <bairro>Capim Macio</bairro>
+            <cidade>Natal</cidade>
+            <número>89</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>150000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Cobertura de luxo com vista para o mar</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <email>fernanda.costa@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Beira-Mar</rua>
+            <bairro>Areia Preta</bairro>
+            <cidade>Natal</cidade>
+            <número>1000</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>220</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>1200000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa simples em bairro tranquilo</descricao>
+        <proprietario>
+            <nome>Pedro Santos</nome>
+            <email>pedro.santos@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Igapó</bairro>
+            <cidade>Natal</cidade>
+            <número>56</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>90</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>220000</valor>
+    </imovel>
+</imobiliária>
