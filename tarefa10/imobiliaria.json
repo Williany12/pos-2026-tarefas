@@ -1,0 +1,101 @@
+{
+  "imobiliaria": {
+    "imoveis": [
+      {
+        "descricao": "Apartamento moderno próximo à praia",
+        "proprietario": {
+          "nome": "João Silva",
+          "telefone": ["998765432", "996754788"],
+          "email": "joaosilva@email.com"
+        },
+        "endereco": {
+          "rua": "Rua das Dunas",
+          "bairro": "Ponta Negra",
+          "cidade": "Natal"
+        },
+        "caracteristicas": {
+          "tamanho": 75,
+          "numQuartos": 2,
+          "numBanheiros": 2
+        },
+        "valor": 350000
+      },
+      {
+        "descricao": "Casa ampla com jardim e garagem",
+        "proprietario": {
+          "nome": "Maria Oliveira",
+          "telefone": ["991234566"]
+        },
+        "endereco": {
+          "rua": "Avenida Central",
+          "bairro": "Lagoa Nova",
+          "cidade": "Natal",
+          "numero": 450
+        },
+        "caracteristicas": {
+          "tamanho": 180,
+          "numQuartos": 4,
+          "numBanheiros": 3
+        },
+        "valor": 650000
+      },
+      {
+        "descricao": "Kitnet compacta ideal para estudantes",
+        "proprietario": {
+          "nome": "Carlos Souza",
+          "email": "carlos.souza@email.com"
+        },
+        "endereco": {
+          "rua": "Rua Universitária",
+          "bairro": "Capim Macio",
+          "cidade": "Natal",
+          "numero": 89
+        },
+        "caracteristicas": {
+          "tamanho": 35,
+          "numQuartos": 1,
+          "numBanheiros": 1
+        },
+        "valor": 150000
+      },
+      {
+        "descricao": "Cobertura de luxo com vista para o mar",
+        "proprietario": {
+          "nome": "Fernanda Costa",
+          "email": "fernanda.costa@email.com"
+        },
+        "endereco": {
+          "rua": "Avenida Beira-Mar",
+          "bairro": "Areia Preta",
+          "cidade": "Natal",
+          "numero": 1000
+        },
+        "caracteristicas": {
+          "tamanho": 220,
+          "numQuartos": 3,
+          "numBanheiros": 4
+        },
+        "valor": 1200000
+      },
+      {
+        "descricao": "Casa simples em bairro tranquilo",
+        "proprietario": {
+          "nome": "Pedro Santos",
+          "email": "pedro.santos@email.com"
+        },
+        "endereco": {
+          "rua": "Rua das Flores",
+          "bairro": "Igapó",
+          "cidade": "Natal",
+          "numero": 56
+        },
+        "caracteristicas": {
+          "tamanho": 90,
+          "numQuartos": 3,
+          "numBanheiros": 1
+        },
+        "valor": 220000
+      }
+    ]
+  }
+}
