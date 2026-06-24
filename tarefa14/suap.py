@@ -25,6 +25,15 @@ print(url)
 response = requests.get(url, headers=headers)
 
 disciplinas = response.json()["results"]
-for disciplina in disciplinas:
-    print(f"{disciplina["disciplina"]:<60} - {disciplina["nota_etapa_1"]["nota"]} - {disciplina["nota_etapa_2"]["nota"]} - {disciplina["nota_etapa_3"]["nota"]} - {disciplina["nota_etapa_4"]["nota"]}")
+print()
+print(f'{"Disciplina":<80} | {"N1":^5} | {"N2":^5} | {"N3":^5} | {"N4":^5}')
+print("-" * 115)
 
+for disciplina in disciplinas:
+    print(
+        f'{disciplina["disciplina"]:<80} |'
+        f'{str(disciplina["nota_etapa_1"]["nota"]):^6} |'
+        f'{str(disciplina["nota_etapa_2"]["nota"]):^6} |'
+        f'{str(disciplina["nota_etapa_3"]["nota"]):^6} |'
+        f'{str(disciplina["nota_etapa_4"]["nota"]):^6} |'
+    )
