@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>{% block title %} BOLETIM {% endblock %}</h2>
+
+    <form action="{{ url_for('boletim') }}" method="get">
+        <select name="ano" id="ano">
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+        </select>
+        <input type="submit" value="Selecionar">
+    </form>
+    {% for disciplina in user_data %}
+        <p>{{ disciplina.disciplina }}</p>
+    {% endfor %}
+
+{% endblock %}
